@@ -73,6 +73,7 @@ a {
 
 .images {
     width: 620px;
+    border: 1px solid skyblue;
 }
 
 .audio-buttons {
@@ -126,7 +127,7 @@ a {
     font-family: 'poppins', sans-serif;
     border: 1px solid skyblue;
     width: 480px;
-    height: 465px;
+    height: 467px;
     padding: 10px;
 }
 
