@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-family: 'poppins', sans-serif;
+}
+
+.lesson-title {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'bangers', sans-serif;
+    color:  rgb(255, 145, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.title {
+    font-size: 30px;
+    font-family: 'bangers', sans-serif;
+    color: rgb(255, 145, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+.menu-container {
+    display: flex;
+    max-width: 600px;
+    justify-content: space-between;
+     gap: 5px;
+}
+
+.links {
+    width: 120px;
+    padding: 0px;
+    border: 1px solid skyblue;
+    background-color: rgb(160, 210, 253);
+
+    &:hover {
+        background-color: rgb(0, 204, 255);
+        cursor: pointer;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+    &:hover {
+        color: rgb(0, 15, 153);
+    }
+}
+
+.back {
+    position: absolute;
+    left: 100px;
+}
+
+.images {
+    width: 400px;
+}
+
+.audio-buttons {
+    width: 60px;
+    height: 25px;
+    border-style: none;
+    background-color: rgb(135, 0, 139);
+    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+    &:hover {
+        background-color: rgb(234, 0, 255);
+    }
+
+    &:active {
+        box-shadow: none;
+    }
+}
+
+.conversation-container {
+    border: 1px solid skyblue;
+    padding: 5px;
+}
+
+.lines {
+    font-family: 'poppins', sans-serif;
+    width: 610px;
+    display: grid;
+    grid-template-columns: 12% 85%;
+    font-size: 20px;
+    text-align: start;
+    color: rgb(0, 0, 109);
+}
+
+.names {
+    color: rgb(255, 123, 0);
+    font-size: 20px;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+.inputs {
+    font-family: 'poppins', sans-serif;
+    width: 40px;
+    height: 25px;
+    border-style: none;
+    background-color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid skyblue;
+    color: darkblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.numbers {
+    margin-right: 10px;
+    color: rgb(255, 106, 0);
+}
+
+.right {
+    visibility: hidden;
+}
